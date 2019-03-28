@@ -1,4 +1,4 @@
-# HackerRank Introduction 6 Write a function
+# HackerRank Basic Data Types 1 List Comprehensions
 
 
 def problem_solution(year):
