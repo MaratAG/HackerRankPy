@@ -9,7 +9,7 @@ def problem_solution(A, k):
     k = int(k)
     list_A = [element for element in A]
     list_A.sort()
-    for element in combinations_with_replacement(list_A, 2):
+    for element in combinations_with_replacement(list_A, k):
         print(''.join(element))
 
 
