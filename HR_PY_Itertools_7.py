@@ -13,7 +13,7 @@ def problem_solution(N, M):
 def main():
     # Initialization
     K, M = map(int, input().split())
-    N = [list(map(int, input().split())) for _ in range(K)]
+    N = [list(map(int, input().split()))[1:] for _ in range(K)]
     problem_solution(N, M)
 
 
