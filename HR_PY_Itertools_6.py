@@ -1,4 +1,4 @@
-""""HackerRank Itertools 6 Iterables and iterators"""
+""""HackerRank Itertools 7 Iterables and iterators"""
 
 
 from collections import defaultdict
