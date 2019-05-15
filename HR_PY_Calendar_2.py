@@ -1,12 +1,17 @@
 """  HR Task 2 Time Delta """
 
 
-import calendar
+from datetime import datetime
 
 
 def main():
-    mm, dd, yyyy = map(int, input().split())
-    print(list(calendar.day_name)[calendar.weekday(yyyy, mm, dd)].upper())
+    format_data = '%a %d %b %Y %H:%M:%S %z'
+
+    n_tests = int(input())
+    for _ in range(n_tests):
+        time1 = datetime.strptime(input(), format_data)
+        time2 = datetime.strptime(input(), format_data)
+        print(int(abs(time2 - time1).total_seconds()))
 
 
 if __name__ == '__main__':
