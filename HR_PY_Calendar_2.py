@@ -1,4 +1,4 @@
-"""  HR Task 2 Calendar Module """
+"""  HR Task 2 Time Delta """
 
 
 import calendar
